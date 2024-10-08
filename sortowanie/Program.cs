@@ -18,7 +18,7 @@
                 table[i] = r.Next(0, 1001);
                 Console.WriteLine(table[i]);
                 i++;
-
+                 
             }
             return table;
         }
