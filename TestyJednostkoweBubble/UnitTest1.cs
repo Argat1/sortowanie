@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestPlatform.TestHost;
+using sortowanie;
 
 namespace TestyJednostkoweBubble
 {
@@ -7,9 +8,13 @@ namespace TestyJednostkoweBubble
         [Fact]
         public void Test1()
         {
-            Program program = new Program();
 
-            int result = program.
+            int[] tab = { 1, 4, 2, 5, 3 };
+            int[] tab2 = { 1, 2, 3, 4, 5 };
+
+            int[] result = SORT.Sortoj(tab);
+
+            Assert.Equal(tab2, result);
         }
     }
 }
