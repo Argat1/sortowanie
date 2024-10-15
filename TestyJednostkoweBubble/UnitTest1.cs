@@ -1,3 +1,5 @@
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+
 namespace TestyJednostkoweBubble
 {
     public class UnitTest1
@@ -5,7 +7,9 @@ namespace TestyJednostkoweBubble
         [Fact]
         public void Test1()
         {
+            Program program = new Program();
 
+            int result = program.
         }
     }
 }
