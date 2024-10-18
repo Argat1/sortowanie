@@ -9,12 +9,12 @@ namespace TestyJednostkoweBubble
         public void Test1()
         {
 
-            int[] tab = { 1, 4, 2, 5, 3 };
-            int[] tab2 = { 1, 2, 3, 4, 5 };
+            int[] tablica = { 1, 4, 2, 5, 3 };
+            int[] tablicadosortowania = { 1, 2, 3, 4, 5 };
 
-            int[] result = SORT.Sortoj(tab);
+            int[] result = SORT.Sortoj(tablica);
 
-            Assert.Equal(tab2, result);
+            Assert.Equal(tablicadosortowania, result);
         }
     }
 }
